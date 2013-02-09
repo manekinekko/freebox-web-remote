@@ -1,13 +1,15 @@
 <html>
 <head>
-	<title></title>
+	<title>Freebox Web Remote Control</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome-ie7.min.css">
+	<!--[if IE 7]>
+	<link rel="stylesheet" href="css/font-awesome-ie7.min.css">
+	<![endif]-->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<!-- http://hd1.freebox.fr/pub/remote_control?code=22830809&key=XXX -->
-
 	<div class="frbx-remote-container">
 		<div class="frbx-remote-blocs frbx-remote-bloc-1">
 			<a href="#key-av"><i>AV</i></a>
@@ -56,7 +58,26 @@
 			<a href="#key-play"><i class="icon-play"></i><i class="icon-pause"></i></a>
 			<a href="#key-fwd"><i class="icon-forward"></i></a>
 		</div>
+
+		<div class="input-prepend">
+			<span class="add-on"><i class="icon-desktop"></i></span>
+			<input class="span2" type="text" id="remote-id" placeholder="Remote ID">
+		</div>
 	</div>
 	<script src="js/script.js"></script>
+	<script type="text/javascript">
+
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-18330614-12']);
+	_gaq.push(['_setDomainName', 'cheghamwassim.com']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+
+	</script>
 </body>
 </html>
