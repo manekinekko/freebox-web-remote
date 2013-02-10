@@ -5,6 +5,11 @@ DISCLAIMER
 --
 This app is for the french ISP "Free" users only. 
 
+DEMO
+--
+
+http://cheghamwassim.com/apps/js/freebox-web-remote-control/
+
 
 About
 --
