@@ -2,7 +2,6 @@
 /*globals document:true,localStorage:true,XMLHttpRequest:true*/
 
 (function () {
-	// 'use strict';
 
 	var long_press_timer = null,
 		long_press_delay = null,
