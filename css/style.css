@@ -28,6 +28,14 @@ input[type="text"] {
 	padding: 14px 10px;
 	width: 90px;
 }
+iframe {
+	position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+}
 
 .frbx-remote-container {
 	font-family: Helvetica, Arial, sans-serif;

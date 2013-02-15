@@ -1,0 +1,10 @@
+{
+  "name": "freebox-web-remote-control",
+  "description": "Freebox Web Remote Control",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "paperboy ": "",
+    "http-proxy": ""
+  }
+}
