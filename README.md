@@ -12,6 +12,9 @@ The UI of the remote control is 100% made of CSS3 and custom fonts.
 
 USAGE
 --
+
+_You will need Nodejs (http://nodejs.org/) in order to install this app!_
+
 * clone this repo ```$ git clone https://github.com/manekinekko/freebox-web-remote.git``` or download the ZIP
 * install dependencies ```$ npm install ```
 * run the app ```$ node server.js```
