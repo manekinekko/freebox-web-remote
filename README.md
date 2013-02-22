@@ -17,6 +17,7 @@ DEMO
 
 To demo the UI only: http://cheghamwassim.com/apps/js/freebox-web-remote-control/
 
+![Screenshot](https://raw.github.com/manekinekko/freebox-web-remote/master/remote-control-freebox-v6.png)
 
 About
 --
